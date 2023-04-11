@@ -52,3 +52,49 @@ body {
     text-align: center;
     margin: 0 auto;
 }
+
+.apresentacao__sobre p {
+    margin-bottom: 1em;
+}
+
+#missao {
+    font-size: 1.3rem;
+}
+
+.conteudo-beneficios {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.lista-beneficios__itens {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+.beneficios-img {
+    width: 35%;
+}
+
+.apresentacao__beneficios__video {
+    width: 940px;
+    margin: 2em auto;
+    border: 5px solid #790C5A;
+}
+
+.apresentacao__mapa {
+    padding: 3em 2em;
+}
+
+footer {
+    text-align: center;
+    background-color: #CC0E74;
+    color: #F1D4D4;
+    padding: 18px;
+}
+
+footer img {
+    width: 13%;
+}
