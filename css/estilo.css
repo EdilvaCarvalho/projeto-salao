@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F1D4D4;
+    color: #790C5A;
+}
+
+.cabecalho__menu {
+    background-color: #CC0E74;
+    display: flex;
+    gap: 40px;
+    padding: 2%;
+    justify-content: center;
+}
+
+.cabecalho__menu__link {
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #F1D4D4;
+    text-decoration: none;
+}
+
+.cabecalho__banner {
+    text-align: center;
+    background-color: #E6739F;
+    padding: 5%;
+}
+
+.cabecalho__banner__texto {
+    font-size: 1.2rem;
+    color: #F1D4D4;
+    padding-top: 1em;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 1em;
+}
+
+.apresentacao__sobre {
+    padding: 3em 0;
+    width: 940px;
+    text-align: center;
+    margin: 0 auto;
+}
