@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="img/logo-edilva.png">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <title>Salão da Edilva</title>
+</head>
+
+<body>
+  <header class="cabecalho">
+    <nav class="cabecalho__menu">
+      <a href="index.html" class="cabecalho__menu__link">Home</a>
+      <a href="#" class="cabecalho__menu__link">Serviços</a>
+      <a href="#" class="cabecalho__menu__link">Contato</a>
+      <a href="index.html#mapa" class="cabecalho__menu__link">Localização</a>
+    </nav>
+    <div class="cabecalho__banner">
+      <h1 class="titulo">Salão Edilva Carvalho</h1>
+      <p class="cabecalho__banner__texto">Você ainda mais linda. Cuide da sua beleza e invista em você!</p>
+    </div>
+  </header>
+  <main class="apresentacao">
+    <form>
+      <h2>CONTATO</h2>
+      <label for="nome">Nome: </label>
+      <input type="text" name="nome" id="nome" class="input-padrao" required>
+      <label for="email">E-mail: </label>
+      <input type="email" name="email" id="email" class="input-padrao" required placeholder="seunome@dominio.com">
+      <label for="telefone">Telefone: </label>
+      <input type="tel" name="telefone" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX"
+        pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})">
+      <label for="mensagem">Mensagem: </label>
+      <textarea cols="40" rows="10" id="mensagem" class="input-padrao" required></textarea>
+      <fieldset>
+        <legend>Como você prefere o nosso contato?</legend>
+        <label for="radio-telefone">
+          <input type="radio" name="contato" id="radio-telefone" value="telefone">
+          Telefone
+        </label>
+        <label for="radio-email">
+          <input type="radio" name="contato" id="radio-email" value="email">
+          E-mail
+        </label>
+        <label for="radio-whatsapp">
+          <input type="radio" name="contato" id="radio-whatsapp" value="whatsapp" checked>
+          Whatsapp
+        </label>
+      </fieldset>
+      <label>
+        <input type="checkbox" name="checkbox" id="checkbox" checked>
+        Gostaria de receber nossas novidades e promoções por e-mail?
+      </label>
+      <label for="horario">Qual o horário você prefere ser atendido?</label>
+      <select name="horario" id="horario" class="input-padrao">
+        <option value="manha">Manhã</option>
+        <option value="tarde">Tarde</option>
+        <option value="noite">Noite</option>
+      </select>
+      <input type="submit" name="enviar" value="Enviar Formulário" class="input-padrao botao">
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Dia</th>
+          <th>Horário</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Segunda-feira</td>
+          <td>08h - 17h</td>
+        </tr>
+        <tr>
+          <td>Terça-feira</td>
+          <td>08h - 17h</td>
+        </tr>
+        <tr>
+          <td>Quarta-feira</td>
+          <td>08h - 17h</td>
+        </tr>
+        <tr>
+          <td>Quinta-feira</td>
+          <td>08h - 17h</td>
+        </tr>
+        <tr>
+          <td>Sexta-feira</td>
+          <td>08h - 20h</td>
+        </tr>
+        <tr>
+          <td>Sábado-feira</td>
+          <td>08h - 20h</td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <footer>
+    <img src="img/logo-edilva.png" alt="Logo do Salão da Edilva">
+    <p id="footer">&copy; Copyright Edilva Carvalho - 2023</p>
+  </footer>
+</body>
+
+</html>
