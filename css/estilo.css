@@ -147,8 +147,37 @@ form legend {
     padding: 10px 25px;
     width: 100%;
     border-color: #CC0E74;
-    border-radius: 8px;
+    border-radius: 12px;
     color: #CC0E74;
+}
+
+.botao {
+    background: #CC0E74;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    width: 400px;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #CC0E74;
+    color: #FFFFFF;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 18px;
 }
 
 footer {
